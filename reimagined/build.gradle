@@ -78,7 +78,7 @@ publishing {
     publications {
         maven(MavenPublication) {
             groupId = 'com.github.10015198'
-            artifactId = 'globe-design-system'
+            artifactId = 'Reimagined'
             version = "1.0"
 
             pom {
