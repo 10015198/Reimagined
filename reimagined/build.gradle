@@ -1,16 +1,16 @@
-buildscript {
-    ext.kotlin_version = '1.7.20'
-    repositories {
-        google()
-        mavenCentral()
-        mavenLocal()            // << --- ADD This
-    }
-
-    dependencies {
-        classpath 'com.android.tools.build:gradle:4.0.2'
-        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
-    }
-}
+//buildscript {
+//    ext.kotlin_version = '1.7.20'
+//    repositories {
+//        google()
+//        mavenCentral()
+//        mavenLocal()            // << --- ADD This
+//    }
+//
+//    dependencies {
+//        classpath 'com.android.tools.build:gradle:4.0.2'
+//        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+//    }
+//}
 
 plugins {
     id 'com.android.library'
@@ -47,21 +47,17 @@ android {
         }
     }
 
-    kotlin {
-        jvmToolchain(11)
-    }
-
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_11
-        targetCompatibility JavaVersion.VERSION_11
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
     }
     kotlinOptions {
-        jvmTarget = '11'
+        jvmTarget = '1.8'
     }
 
-    lint {
-        baseline = file("lint-baseline.xml")
-    }
+//    lint {
+//        baseline = file("lint-baseline.xml")
+//    }
 
 }
 dependencies {
@@ -74,19 +70,33 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
 }
 
-publishing {
-    publications {
-        maven(MavenPublication) {
-            groupId = 'com.github.10015198'
-            artifactId = 'Reimagined'
-            version = "1.0"
+//publishing {
+//    publications {
+//        maven(MavenPublication) {
+//            groupId = 'com.github.10015198'
+//            artifactId = 'Reimagined'
+//            version = "1.0"
+//
+//            pom {
+//                description = 'Reimagined Design System (Button Component)'
+//            }
+//        }
+//    }
+//    repositories {
+//        mavenLocal()
+//    }
+//}
 
-            pom {
-                description = 'Reimagined Design System (Button Component)'
+afterEvaluate {
+    publishing {
+        publications {
+            // Creates a Maven publication called "release".
+            release(MavenPublication) {
+                from components.release
+                groupId = 'com.github.10015198'
+                artifactId = 'Reimagined'
+                version = '1.0'
             }
         }
-    }
-    repositories {
-        mavenLocal()
     }
 }
