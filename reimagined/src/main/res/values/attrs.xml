@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="Button">
+
+        <attr name="ButtonStyle" format="enum">
+            <enum name="buttonYell" value="0" />
+            <enum name="buttonMurmur" value="1" />
+            <enum name="buttonWhisper" value="2" />
+        </attr>
+    </declare-styleable>
+
+</resources>

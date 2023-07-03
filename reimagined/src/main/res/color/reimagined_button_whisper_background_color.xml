@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Reimagined for Android - Globe's Design System
+  ~
+  ~ Copyright (c) 2023 . Globe Telecom. All rights reserved.
+  ~ Last modified 27/06/2023, 8:33 AM
+  -->
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:color="@color/md_button_whisper_background_enabled"
+        android:state_enabled="true" />
+    <item android:color="@color/md_button_whisper_background_disabled"
+        android:state_enabled="false"/>
+    <item android:color="@color/md_button_whisper_background_pressed"
+        android:state_pressed="true"/>
+</selector>

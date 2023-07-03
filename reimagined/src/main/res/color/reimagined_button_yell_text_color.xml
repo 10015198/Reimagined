@@ -1,0 +1,14 @@
+<!--
+  ~ Reimagined for Android - Globe's Design System
+  ~
+  ~ Copyright (c) 2023 . Globe Telecom. All rights reserved.
+  ~ Last modified 27/06/2023, 1:12 PM
+  -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:color="@color/md_button_yell_text_enabled"
+        android:state_enabled="true" />
+    <item android:color="@color/md_button_yell_text_disabled"
+        android:state_enabled="false"/>
+    <item android:color="@color/md_button_yell_text_pressed"
+        android:state_pressed="true"/>
+</selector>

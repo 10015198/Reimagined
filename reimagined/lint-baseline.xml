@@ -1,0 +1,3436 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issues format="6" by="lint 7.4.2" type="baseline" client="gradle" dependencies="false" name="AGP (7.4.2)" variant="all" version="7.4.2">
+
+    <issue
+        id="CustomViewStyleable"
+        message="By convention, the custom view (`ButtonPill`) and the declare-styleable (`Button`) should have the same name (various editor features rely on this convention)"
+        errorLine1="            context.obtainStyledAttributes(attrs, R.styleable.Button, defStyleAttr,  com.google.android.material.R.style.Widget_MaterialComponents_Button)"
+        errorLine2="                                                  ~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/globe/designsystem/reimagined/button/ButtonPill.kt"
+            line="34"
+            column="51"/>
+    </issue>
+
+    <issue
+        id="CustomViewStyleable"
+        message="By convention, the custom view (`ButtonPill`) and the declare-styleable (`Button`) should have the same name (various editor features rely on this convention)"
+        errorLine1="            context.obtainStyledAttributes(attrs, R.styleable.Button, defStyleAttr,  com.google.android.material.R.style.Widget_MaterialComponents_Button)"
+        errorLine2="                                                  ~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/globe/designsystem/reimagined/button/ButtonPill.kt"
+            line="34"
+            column="51"/>
+    </issue>
+
+    <issue
+        id="CustomViewStyleable"
+        message="By convention, the custom view (`ButtonPill`) and the declare-styleable (`Button`) should have the same name (various editor features rely on this convention)"
+        errorLine1="            context.obtainStyledAttributes(attrs, R.styleable.Button, defStyleAttr,  com.google.android.material.R.style.Widget_MaterialComponents_Button)"
+        errorLine2="                                                  ~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/globe/designsystem/reimagined/button/ButtonPill.kt"
+            line="34"
+            column="51"/>
+    </issue>
+
+    <issue
+        id="AndroidGradlePluginVersion"
+        message="A newer version of com.android.tools.build:gradle than 4.0.0 is available: 8.0.2. (There is also a newer version of 4.0.𝑥 available, if upgrading to 8.0.2 is difficult: 4.0.2)"
+        errorLine1="        classpath &apos;com.android.tools.build:gradle:4.0.0&apos;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="10"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.core:core-ktx than 1.7.0 is available: 1.10.1"
+        errorLine1="    implementation &apos;androidx.core:core-ktx:1.7.0&apos;"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="64"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="UseCompatTextViewDrawableApis"
+        message="Use `TextViewCompat.setCompoundDrawableTintList()`"
+        errorLine1="                compoundDrawableTintList = getTextStyleColor()"
+        errorLine2="                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/globe/designsystem/reimagined/button/Button.kt"
+            line="60"
+            column="17"/>
+    </issue>
+
+    <issue
+        id="UseCompatTextViewDrawableApis"
+        message="Use `TextViewCompat.setCompoundDrawableTintList()`"
+        errorLine1="                compoundDrawableTintList = getTextStyleColor()"
+        errorLine2="                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/globe/designsystem/reimagined/button/Button.kt"
+            line="65"
+            column="17"/>
+    </issue>
+
+    <issue
+        id="UseCompatTextViewDrawableApis"
+        message="Use `TextViewCompat.setCompoundDrawableTintList()`"
+        errorLine1="                compoundDrawableTintList = getTextStyleColor()"
+        errorLine2="                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/globe/designsystem/reimagined/button/Button.kt"
+            line="72"
+            column="17"/>
+    </issue>
+
+    <issue
+        id="UseCompatTextViewDrawableApis"
+        message="Use `TextViewCompat.setCompoundDrawableTintList()`"
+        errorLine1="                compoundDrawableTintList = getTextStyleColor()"
+        errorLine2="                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/globe/designsystem/reimagined/button/ButtonPill.kt"
+            line="63"
+            column="17"/>
+    </issue>
+
+    <issue
+        id="UseCompatTextViewDrawableApis"
+        message="Use `TextViewCompat.setCompoundDrawableTintList()`"
+        errorLine1="                compoundDrawableTintList = getTextStyleColor()"
+        errorLine2="                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/globe/designsystem/reimagined/button/ButtonPill.kt"
+            line="68"
+            column="17"/>
+    </issue>
+
+    <issue
+        id="UseCompatTextViewDrawableApis"
+        message="Use `TextViewCompat.setCompoundDrawableTintList()`"
+        errorLine1="                compoundDrawableTintList = getTextStyleColor()"
+        errorLine2="                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/globe/designsystem/reimagined/button/ButtonPill.kt"
+            line="75"
+            column="17"/>
+    </issue>
+
+    <issue
+        id="ExpiredTargetSdkVersion"
+        message="Google Play requires that apps target API level 31 or higher.&#xA;"
+        errorLine1="        targetSdk 30"
+        errorLine2="        ~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="27"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="ObsoleteSdkInt"
+        message="Unnecessary; SDK_INT is always >= 21"
+        errorLine1="        &lt;item name=&quot;android:elegantTextHeight&quot; tools:targetApi=&quot;lollipop&quot;>true&lt;/item>"
+        errorLine2="                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="8"
+            column="48"/>
+    </issue>
+
+    <issue
+        id="ObsoleteSdkInt"
+        message="Unnecessary; SDK_INT is always >= 21"
+        errorLine1="        &lt;item name=&quot;android:elegantTextHeight&quot; tools:targetApi=&quot;lollipop&quot;>true&lt;/item>"
+        errorLine2="                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="15"
+            column="48"/>
+    </issue>
+
+    <issue
+        id="ObsoleteSdkInt"
+        message="Unnecessary; SDK_INT is always >= 21"
+        errorLine1="        &lt;item name=&quot;android:elegantTextHeight&quot; tools:targetApi=&quot;lollipop&quot;>true&lt;/item>"
+        errorLine2="                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="22"
+            column="48"/>
+    </issue>
+
+    <issue
+        id="ObsoleteSdkInt"
+        message="Unnecessary; SDK_INT is always >= 21"
+        errorLine1="        &lt;item name=&quot;android:elegantTextHeight&quot; tools:targetApi=&quot;lollipop&quot;>true&lt;/item>"
+        errorLine2="                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="29"
+            column="48"/>
+    </issue>
+
+    <issue
+        id="ObsoleteSdkInt"
+        message="Unnecessary; SDK_INT is always >= 21"
+        errorLine1="        &lt;item name=&quot;android:elegantTextHeight&quot; tools:targetApi=&quot;lollipop&quot;>true&lt;/item>"
+        errorLine2="                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="36"
+            column="48"/>
+    </issue>
+
+    <issue
+        id="ObsoleteSdkInt"
+        message="Unnecessary; SDK_INT is always >= 21"
+        errorLine1="        &lt;item name=&quot;android:elegantTextHeight&quot; tools:targetApi=&quot;lollipop&quot;>true&lt;/item>"
+        errorLine2="                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="43"
+            column="48"/>
+    </issue>
+
+    <issue
+        id="ObsoleteSdkInt"
+        message="Unnecessary; SDK_INT is always >= 21"
+        errorLine1="        &lt;item name=&quot;android:elegantTextHeight&quot; tools:targetApi=&quot;lollipop&quot;>true&lt;/item>"
+        errorLine2="                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="50"
+            column="48"/>
+    </issue>
+
+    <issue
+        id="ObsoleteSdkInt"
+        message="Unnecessary; SDK_INT is always >= 21"
+        errorLine1="        &lt;item name=&quot;android:elegantTextHeight&quot; tools:targetApi=&quot;lollipop&quot;>true&lt;/item>"
+        errorLine2="                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="57"
+            column="48"/>
+    </issue>
+
+    <issue
+        id="ObsoleteSdkInt"
+        message="Unnecessary; SDK_INT is always >= 21"
+        errorLine1="        &lt;item name=&quot;android:elegantTextHeight&quot; tools:targetApi=&quot;lollipop&quot;>true&lt;/item>"
+        errorLine2="                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="64"
+            column="48"/>
+    </issue>
+
+    <issue
+        id="ObsoleteSdkInt"
+        message="Unnecessary; SDK_INT is always >= 21"
+        errorLine1="        &lt;item name=&quot;android:elegantTextHeight&quot; tools:targetApi=&quot;lollipop&quot;>true&lt;/item>"
+        errorLine2="                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="71"
+            column="48"/>
+    </issue>
+
+    <issue
+        id="ObsoleteSdkInt"
+        message="Unnecessary; SDK_INT is always >= 21"
+        errorLine1="        &lt;item name=&quot;android:elegantTextHeight&quot; tools:targetApi=&quot;lollipop&quot;>true&lt;/item>"
+        errorLine2="                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="78"
+            column="48"/>
+    </issue>
+
+    <issue
+        id="ObsoleteSdkInt"
+        message="Unnecessary; SDK_INT is always >= 21"
+        errorLine1="        &lt;item name=&quot;android:elegantTextHeight&quot; tools:targetApi=&quot;lollipop&quot;>true&lt;/item>"
+        errorLine2="                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="85"
+            column="48"/>
+    </issue>
+
+    <issue
+        id="ObsoleteSdkInt"
+        message="Unnecessary; SDK_INT is always >= 21"
+        errorLine1="        &lt;item name=&quot;android:elegantTextHeight&quot; tools:targetApi=&quot;lollipop&quot;>true&lt;/item>"
+        errorLine2="                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="92"
+            column="48"/>
+    </issue>
+
+    <issue
+        id="ObsoleteSdkInt"
+        message="Unnecessary; SDK_INT is always >= 21"
+        errorLine1="        &lt;item name=&quot;android:elegantTextHeight&quot; tools:targetApi=&quot;lollipop&quot;>true&lt;/item>"
+        errorLine2="                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="99"
+            column="48"/>
+    </issue>
+
+    <issue
+        id="ObsoleteSdkInt"
+        message="Unnecessary; SDK_INT is always >= 21"
+        errorLine1="        &lt;item name=&quot;android:elegantTextHeight&quot; tools:targetApi=&quot;lollipop&quot;>true&lt;/item>"
+        errorLine2="                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="106"
+            column="48"/>
+    </issue>
+
+    <issue
+        id="ObsoleteSdkInt"
+        message="Unnecessary; SDK_INT is always >= 21"
+        errorLine1="        &lt;item name=&quot;android:elegantTextHeight&quot; tools:targetApi=&quot;lollipop&quot;>true&lt;/item>"
+        errorLine2="                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="113"
+            column="48"/>
+    </issue>
+
+    <issue
+        id="ObsoleteSdkInt"
+        message="Unnecessary; SDK_INT is always >= 21"
+        errorLine1="        &lt;item name=&quot;android:elegantTextHeight&quot; tools:targetApi=&quot;lollipop&quot;>true&lt;/item>"
+        errorLine2="                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="120"
+            column="48"/>
+    </issue>
+
+    <issue
+        id="ObsoleteSdkInt"
+        message="Unnecessary; SDK_INT is always >= 21"
+        errorLine1="        &lt;item name=&quot;android:elegantTextHeight&quot; tools:targetApi=&quot;lollipop&quot;>true&lt;/item>"
+        errorLine2="                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="127"
+            column="48"/>
+    </issue>
+
+    <issue
+        id="ObsoleteSdkInt"
+        message="Unnecessary; SDK_INT is always >= 21"
+        errorLine1="        &lt;item name=&quot;android:elegantTextHeight&quot; tools:targetApi=&quot;lollipop&quot;>true&lt;/item>"
+        errorLine2="                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="134"
+            column="48"/>
+    </issue>
+
+    <issue
+        id="ObsoleteSdkInt"
+        message="Unnecessary; SDK_INT is always >= 21"
+        errorLine1="        &lt;item name=&quot;android:elegantTextHeight&quot; tools:targetApi=&quot;lollipop&quot;>true&lt;/item>"
+        errorLine2="                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="141"
+            column="48"/>
+    </issue>
+
+    <issue
+        id="ObsoleteSdkInt"
+        message="Unnecessary; SDK_INT is always >= 21"
+        errorLine1="        &lt;item name=&quot;android:elegantTextHeight&quot; tools:targetApi=&quot;lollipop&quot;>true&lt;/item>"
+        errorLine2="                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="148"
+            column="48"/>
+    </issue>
+
+    <issue
+        id="ObsoleteSdkInt"
+        message="Unnecessary; SDK_INT is always >= 21"
+        errorLine1="        &lt;item name=&quot;android:elegantTextHeight&quot; tools:targetApi=&quot;lollipop&quot;>true&lt;/item>"
+        errorLine2="                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="155"
+            column="48"/>
+    </issue>
+
+    <issue
+        id="ObsoleteSdkInt"
+        message="Unnecessary; SDK_INT is always >= 21"
+        errorLine1="        &lt;item name=&quot;android:elegantTextHeight&quot; tools:targetApi=&quot;lollipop&quot;>true&lt;/item>"
+        errorLine2="                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="162"
+            column="48"/>
+    </issue>
+
+    <issue
+        id="ObsoleteSdkInt"
+        message="Unnecessary; SDK_INT is always >= 21"
+        errorLine1="        &lt;item name=&quot;android:elegantTextHeight&quot; tools:targetApi=&quot;lollipop&quot;>true&lt;/item>"
+        errorLine2="                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="169"
+            column="48"/>
+    </issue>
+
+    <issue
+        id="ObsoleteSdkInt"
+        message="Unnecessary; SDK_INT is always >= 21"
+        errorLine1="        &lt;item name=&quot;android:elegantTextHeight&quot; tools:targetApi=&quot;lollipop&quot;>true&lt;/item>"
+        errorLine2="                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="176"
+            column="48"/>
+    </issue>
+
+    <issue
+        id="ObsoleteSdkInt"
+        message="Unnecessary; SDK_INT is always >= 21"
+        errorLine1="        &lt;item name=&quot;android:elegantTextHeight&quot; tools:targetApi=&quot;lollipop&quot;>true&lt;/item>"
+        errorLine2="                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="183"
+            column="48"/>
+    </issue>
+
+    <issue
+        id="ObsoleteSdkInt"
+        message="Unnecessary; SDK_INT is always >= 21"
+        errorLine1="        &lt;item name=&quot;android:elegantTextHeight&quot; tools:targetApi=&quot;lollipop&quot;>true&lt;/item>"
+        errorLine2="                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="190"
+            column="48"/>
+    </issue>
+
+    <issue
+        id="ObsoleteSdkInt"
+        message="Unnecessary; SDK_INT is always >= 21"
+        errorLine1="        &lt;item name=&quot;android:elegantTextHeight&quot; tools:targetApi=&quot;lollipop&quot;>true&lt;/item>"
+        errorLine2="                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="197"
+            column="48"/>
+    </issue>
+
+    <issue
+        id="ObsoleteSdkInt"
+        message="Unnecessary; SDK_INT is always >= 21"
+        errorLine1="        &lt;item name=&quot;android:elegantTextHeight&quot; tools:targetApi=&quot;lollipop&quot;>true&lt;/item>"
+        errorLine2="                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="204"
+            column="48"/>
+    </issue>
+
+    <issue
+        id="ObsoleteSdkInt"
+        message="Unnecessary; SDK_INT is always >= 21"
+        errorLine1="        &lt;item name=&quot;android:elegantTextHeight&quot; tools:targetApi=&quot;lollipop&quot;>true&lt;/item>"
+        errorLine2="                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="211"
+            column="48"/>
+    </issue>
+
+    <issue
+        id="ObsoleteSdkInt"
+        message="Unnecessary; SDK_INT is always >= 21"
+        errorLine1="        &lt;item name=&quot;android:elegantTextHeight&quot; tools:targetApi=&quot;lollipop&quot;>true&lt;/item>"
+        errorLine2="                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="218"
+            column="48"/>
+    </issue>
+
+    <issue
+        id="ObsoleteSdkInt"
+        message="Unnecessary; SDK_INT is always >= 21"
+        errorLine1="        &lt;item name=&quot;android:elegantTextHeight&quot; tools:targetApi=&quot;lollipop&quot;>true&lt;/item>"
+        errorLine2="                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="225"
+            column="48"/>
+    </issue>
+
+    <issue
+        id="ObsoleteSdkInt"
+        message="Unnecessary; SDK_INT is always >= 21"
+        errorLine1="        &lt;item name=&quot;android:elegantTextHeight&quot; tools:targetApi=&quot;lollipop&quot;>true&lt;/item>"
+        errorLine2="                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="232"
+            column="48"/>
+    </issue>
+
+    <issue
+        id="ObsoleteSdkInt"
+        message="Unnecessary; SDK_INT is always >= 21"
+        errorLine1="        &lt;item name=&quot;android:elegantTextHeight&quot; tools:targetApi=&quot;lollipop&quot;>true&lt;/item>"
+        errorLine2="                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="239"
+            column="48"/>
+    </issue>
+
+    <issue
+        id="ObsoleteSdkInt"
+        message="Unnecessary; SDK_INT is always >= 21"
+        errorLine1="        &lt;item name=&quot;android:elegantTextHeight&quot; tools:targetApi=&quot;lollipop&quot;>true&lt;/item>"
+        errorLine2="                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="246"
+            column="48"/>
+    </issue>
+
+    <issue
+        id="ObsoleteSdkInt"
+        message="Unnecessary; SDK_INT is always >= 21"
+        errorLine1="        &lt;item name=&quot;android:elegantTextHeight&quot; tools:targetApi=&quot;lollipop&quot;>true&lt;/item>"
+        errorLine2="                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="253"
+            column="48"/>
+    </issue>
+
+    <issue
+        id="ObsoleteSdkInt"
+        message="Unnecessary; SDK_INT is always >= 21"
+        errorLine1="        &lt;item name=&quot;android:elegantTextHeight&quot; tools:targetApi=&quot;lollipop&quot;>true&lt;/item>"
+        errorLine2="                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="260"
+            column="48"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.base_action` appears to be unused"
+        errorLine1="    &lt;style name=&quot;base_action&quot;>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="4"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.base_bold_content` appears to be unused"
+        errorLine1="    &lt;style name=&quot;base_bold_content&quot;>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="11"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.base_form` appears to be unused"
+        errorLine1="    &lt;style name=&quot;base_form&quot;>"
+        errorLine2="           ~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="18"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.base_regular_content` appears to be unused"
+        errorLine1="    &lt;style name=&quot;base_regular_content&quot;>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="25"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.comfy_callsms` appears to be unused"
+        errorLine1="    &lt;style name=&quot;comfy_callsms&quot;>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="32"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.comfy_data` appears to be unused"
+        errorLine1="    &lt;style name=&quot;comfy_data&quot;>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="39"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.compact_callsms` appears to be unused"
+        errorLine1="    &lt;style name=&quot;compact_callsms&quot;>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="46"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.compact_data` appears to be unused"
+        errorLine1="    &lt;style name=&quot;compact_data&quot;>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="53"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.default_callsms` appears to be unused"
+        errorLine1="    &lt;style name=&quot;default_callsms&quot;>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="60"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.default_data` appears to be unused"
+        errorLine1="    &lt;style name=&quot;default_data&quot;>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="67"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.label_caption` appears to be unused"
+        errorLine1="    &lt;style name=&quot;label_caption&quot;>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="74"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.label_small` appears to be unused"
+        errorLine1="    &lt;style name=&quot;label_small&quot;>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="81"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.label_tag` appears to be unused"
+        errorLine1="    &lt;style name=&quot;label_tag&quot;>"
+        errorLine2="           ~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="88"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.large_bold` appears to be unused"
+        errorLine1="    &lt;style name=&quot;large_bold&quot;>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="95"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.large_extended_tight` appears to be unused"
+        errorLine1="    &lt;style name=&quot;large_extended_tight&quot;>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="102"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.large_multiline` appears to be unused"
+        errorLine1="    &lt;style name=&quot;large_multiline&quot;>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="109"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.medium_bold` appears to be unused"
+        errorLine1="    &lt;style name=&quot;medium_bold&quot;>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="116"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.medium_bold_content` appears to be unused"
+        errorLine1="    &lt;style name=&quot;medium_bold_content&quot;>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="123"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.medium_bold_num` appears to be unused"
+        errorLine1="    &lt;style name=&quot;medium_bold_num&quot;>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="130"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.medium_multiline` appears to be unused"
+        errorLine1="    &lt;style name=&quot;medium_multiline&quot;>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="137"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.medium_regular_content` appears to be unused"
+        errorLine1="    &lt;style name=&quot;medium_regular_content&quot;>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="144"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.s_medium_bold` appears to be unused"
+        errorLine1="    &lt;style name=&quot;s_medium_bold&quot;>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="151"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.s_medium_bold_num` appears to be unused"
+        errorLine1="    &lt;style name=&quot;s_medium_bold_num&quot;>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="158"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.s_medium_multiline` appears to be unused"
+        errorLine1="    &lt;style name=&quot;s_medium_multiline&quot;>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="165"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.small_action` appears to be unused"
+        errorLine1="    &lt;style name=&quot;small_action&quot;>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="172"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.small_bold_content` appears to be unused"
+        errorLine1="    &lt;style name=&quot;small_bold_content&quot;>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="179"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.small_regular_content` appears to be unused"
+        errorLine1="    &lt;style name=&quot;small_regular_content&quot;>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="186"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.tooltip` appears to be unused"
+        errorLine1="    &lt;style name=&quot;tooltip&quot;>"
+        errorLine2="           ~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="193"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.x_base_bold` appears to be unused"
+        errorLine1="    &lt;style name=&quot;x_base_bold&quot;>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="200"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.x_base_bold_content` appears to be unused"
+        errorLine1="    &lt;style name=&quot;x_base_bold_content&quot;>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="207"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.x_base_bold_num` appears to be unused"
+        errorLine1="    &lt;style name=&quot;x_base_bold_num&quot;>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="214"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.x_base_multiline` appears to be unused"
+        errorLine1="    &lt;style name=&quot;x_base_multiline&quot;>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="221"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.x_base_regular_content` appears to be unused"
+        errorLine1="    &lt;style name=&quot;x_base_regular_content&quot;>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="228"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.x_small_bold` appears to be unused"
+        errorLine1="    &lt;style name=&quot;x_small_bold&quot;>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="235"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.x_small_multiline` appears to be unused"
+        errorLine1="    &lt;style name=&quot;x_small_multiline&quot;>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="242"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.x_small_regular_content` appears to be unused"
+        errorLine1="    &lt;style name=&quot;x_small_regular_content&quot;>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="249"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.xx_small_regular_content` appears to be unused"
+        errorLine1="    &lt;style name=&quot;xx_small_regular_content&quot;>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="256"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.gone_caption_base_bold` appears to be unused"
+        errorLine1="    &lt;style name=&quot;gone_caption_base_bold&quot;>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="263"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.gone_caption_base_neutral` appears to be unused"
+        errorLine1="    &lt;style name=&quot;gone_caption_base_neutral&quot;>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="268"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.gone_caption_base_subtle` appears to be unused"
+        errorLine1="    &lt;style name=&quot;gone_caption_base_subtle&quot;>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="273"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.gone_caption_large_bold` appears to be unused"
+        errorLine1="    &lt;style name=&quot;gone_caption_large_bold&quot;>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="278"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.gone_caption_large_neutral` appears to be unused"
+        errorLine1="    &lt;style name=&quot;gone_caption_large_neutral&quot;>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="283"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.gone_caption_large_subtle` appears to be unused"
+        errorLine1="    &lt;style name=&quot;gone_caption_large_subtle&quot;>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="288"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.gone_caption_small_bold` appears to be unused"
+        errorLine1="    &lt;style name=&quot;gone_caption_small_bold&quot;>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="293"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.gone_caption_small_wide` appears to be unused"
+        errorLine1="    &lt;style name=&quot;gone_caption_small_wide&quot;>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="298"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.gone_caption_small_neutral` appears to be unused"
+        errorLine1="    &lt;style name=&quot;gone_caption_small_neutral&quot;>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="303"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.gone_caption_small_subtle` appears to be unused"
+        errorLine1="    &lt;style name=&quot;gone_caption_small_subtle&quot;>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="308"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.gone_headline_base_bold` appears to be unused"
+        errorLine1="    &lt;style name=&quot;gone_headline_base_bold&quot;>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="313"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.gone_headline_base_neutral` appears to be unused"
+        errorLine1="    &lt;style name=&quot;gone_headline_base_neutral&quot;>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="318"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.gone_headline_base_subtle` appears to be unused"
+        errorLine1="    &lt;style name=&quot;gone_headline_base_subtle&quot;>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="323"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.gone_headline_large_bold` appears to be unused"
+        errorLine1="    &lt;style name=&quot;gone_headline_large_bold&quot;>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="328"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.gone_headline_large_neutral` appears to be unused"
+        errorLine1="    &lt;style name=&quot;gone_headline_large_neutral&quot;>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="333"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.gone_headline_xlarge_bold` appears to be unused"
+        errorLine1="    &lt;style name=&quot;gone_headline_xlarge_bold&quot;>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="338"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.gone_label_base_neutral` appears to be unused"
+        errorLine1="    &lt;style name=&quot;gone_label_base_neutral&quot;>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="348"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.gone_label_base_subtle` appears to be unused"
+        errorLine1="    &lt;style name=&quot;gone_label_base_subtle&quot;>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="353"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.gone_label_large_bold` appears to be unused"
+        errorLine1="    &lt;style name=&quot;gone_label_large_bold&quot;>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="358"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.gone_label_large_neutral` appears to be unused"
+        errorLine1="    &lt;style name=&quot;gone_label_large_neutral&quot;>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="363"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.gone_label_large_subtle` appears to be unused"
+        errorLine1="    &lt;style name=&quot;gone_label_large_subtle&quot;>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="368"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.gone_label_small_bold` appears to be unused"
+        errorLine1="    &lt;style name=&quot;gone_label_small_bold&quot;>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="373"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.gone_label_small_neutral` appears to be unused"
+        errorLine1="    &lt;style name=&quot;gone_label_small_neutral&quot;>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="378"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.gone_label_small_subtle` appears to be unused"
+        errorLine1="    &lt;style name=&quot;gone_label_small_subtle&quot;>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="383"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.gone_label_small_wide` appears to be unused"
+        errorLine1="    &lt;style name=&quot;gone_label_small_wide&quot;>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="388"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.gone_label_xsmall_bold` appears to be unused"
+        errorLine1="    &lt;style name=&quot;gone_label_xsmall_bold&quot;>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="393"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.gone_label_xsmall_neutral` appears to be unused"
+        errorLine1="    &lt;style name=&quot;gone_label_xsmall_neutral&quot;>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="398"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.gone_label_xsmall_subtle` appears to be unused"
+        errorLine1="    &lt;style name=&quot;gone_label_xsmall_subtle&quot;>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="403"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.gone_number_2xlarge_bold` appears to be unused"
+        errorLine1="    &lt;style name=&quot;gone_number_2xlarge_bold&quot;>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="409"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.gone_number_2xlarge_neutral` appears to be unused"
+        errorLine1="    &lt;style name=&quot;gone_number_2xlarge_neutral&quot;>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="414"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.gone_number_2xlarge_subtle` appears to be unused"
+        errorLine1="    &lt;style name=&quot;gone_number_2xlarge_subtle&quot;>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="419"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.gone_number_xlarge_bold` appears to be unused"
+        errorLine1="    &lt;style name=&quot;gone_number_xlarge_bold&quot;>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="424"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.gone_number_xlarge_neutral` appears to be unused"
+        errorLine1="    &lt;style name=&quot;gone_number_xlarge_neutral&quot;>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="429"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.gone_number_xlarge_subtle` appears to be unused"
+        errorLine1="    &lt;style name=&quot;gone_number_xlarge_subtle&quot;>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="434"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.gonline_content_base_bold` appears to be unused"
+        errorLine1="    &lt;style name=&quot;gonline_content_base_bold&quot;>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="439"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.gonline_content_base_subtle` appears to be unused"
+        errorLine1="    &lt;style name=&quot;gonline_content_base_subtle&quot;>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="444"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.gonline_content_large_bold` appears to be unused"
+        errorLine1="    &lt;style name=&quot;gonline_content_large_bold&quot;>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="449"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.gonline_content_large_subtle` appears to be unused"
+        errorLine1="    &lt;style name=&quot;gonline_content_large_subtle&quot;>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="454"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.gonline_content_medium_bold` appears to be unused"
+        errorLine1="    &lt;style name=&quot;gonline_content_medium_bold&quot;>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="459"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.gonline_content_medium_subtle` appears to be unused"
+        errorLine1="    &lt;style name=&quot;gonline_content_medium_subtle&quot;>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="464"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.gonline_content_small_bold` appears to be unused"
+        errorLine1="    &lt;style name=&quot;gonline_content_small_bold&quot;>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="469"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.gonline_content_small_neutral` appears to be unused"
+        errorLine1="    &lt;style name=&quot;gonline_content_small_neutral&quot;>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="474"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.gonline_content_small_subtle` appears to be unused"
+        errorLine1="    &lt;style name=&quot;gonline_content_small_subtle&quot;>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="479"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.gonline_content_xlarge_bold` appears to be unused"
+        errorLine1="    &lt;style name=&quot;gonline_content_xlarge_bold&quot;>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="484"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.gonline_content_xlarge_subtle` appears to be unused"
+        errorLine1="    &lt;style name=&quot;gonline_content_xlarge_subtle&quot;>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="489"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.gonline_content_xsmall_bold` appears to be unused"
+        errorLine1="    &lt;style name=&quot;gonline_content_xsmall_bold&quot;>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="494"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.gonline_content_xsmall_neutral` appears to be unused"
+        errorLine1="    &lt;style name=&quot;gonline_content_xsmall_neutral&quot;>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="499"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.gonline_content_xsmall_subtle` appears to be unused"
+        errorLine1="    &lt;style name=&quot;gonline_content_xsmall_subtle&quot;>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="504"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.gonline_content_xxsmall_bold` appears to be unused"
+        errorLine1="    &lt;style name=&quot;gonline_content_xxsmall_bold&quot;>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="509"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.gonline_content_xxsmall_neutral` appears to be unused"
+        errorLine1="    &lt;style name=&quot;gonline_content_xxsmall_neutral&quot;>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="514"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.gonline_content_xxsmall_subtle` appears to be unused"
+        errorLine1="    &lt;style name=&quot;gonline_content_xxsmall_subtle&quot;>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="519"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.gonline_label_base_bold` appears to be unused"
+        errorLine1="    &lt;style name=&quot;gonline_label_base_bold&quot;>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="524"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.gonline_label_base_neutral` appears to be unused"
+        errorLine1="    &lt;style name=&quot;gonline_label_base_neutral&quot;>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="529"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.gonline_label_large_bold` appears to be unused"
+        errorLine1="    &lt;style name=&quot;gonline_label_large_bold&quot;>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="534"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.gonline_label_medium_bold` appears to be unused"
+        errorLine1="    &lt;style name=&quot;gonline_label_medium_bold&quot;>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="539"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.gonline_label_small_bold` appears to be unused"
+        errorLine1="    &lt;style name=&quot;gonline_label_small_bold&quot;>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="544"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.gonline_label_small_neutral` appears to be unused"
+        errorLine1="    &lt;style name=&quot;gonline_label_small_neutral&quot;>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="549"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.gonline_label_xlarge_bold` appears to be unused"
+        errorLine1="    &lt;style name=&quot;gonline_label_xlarge_bold&quot;>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="554"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.gonline_label_xsmall_bold` appears to be unused"
+        errorLine1="    &lt;style name=&quot;gonline_label_xsmall_bold&quot;>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="559"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.gonline_label_xsmall_bold_caps` appears to be unused"
+        errorLine1="    &lt;style name=&quot;gonline_label_xsmall_bold_caps&quot;>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="564"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.gonline_label_xsmall_neutral` appears to be unused"
+        errorLine1="    &lt;style name=&quot;gonline_label_xsmall_neutral&quot;>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="569"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.gonline_label_xsmall_neutral_caps` appears to be unused"
+        errorLine1="    &lt;style name=&quot;gonline_label_xsmall_neutral_caps&quot;>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="574"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.gonline_label_xxsmall_bold` appears to be unused"
+        errorLine1="    &lt;style name=&quot;gonline_label_xxsmall_bold&quot;>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="579"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.gonline_label_xxsmall_bold_caps` appears to be unused"
+        errorLine1="    &lt;style name=&quot;gonline_label_xxsmall_bold_caps&quot;>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="584"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.gonline_label_xxsmall_neutral` appears to be unused"
+        errorLine1="    &lt;style name=&quot;gonline_label_xxsmall_neutral&quot;>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="589"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.gonline_label_xxsmall_neutral_caps` appears to be unused"
+        errorLine1="    &lt;style name=&quot;gonline_label_xxsmall_neutral_caps&quot;>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="594"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.gonline_number_large_bold` appears to be unused"
+        errorLine1="    &lt;style name=&quot;gonline_number_large_bold&quot;>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="599"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.gonline_number_large_neutral` appears to be unused"
+        errorLine1="    &lt;style name=&quot;gonline_number_large_neutral&quot;>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="604"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.gonline_number_large_subtle` appears to be unused"
+        errorLine1="    &lt;style name=&quot;gonline_number_large_subtle&quot;>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="609"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.gonline_number_medium_bold` appears to be unused"
+        errorLine1="    &lt;style name=&quot;gonline_number_medium_bold&quot;>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="614"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.gonline_number_medium_neutral` appears to be unused"
+        errorLine1="    &lt;style name=&quot;gonline_number_medium_neutral&quot;>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="619"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.gonline_number_medium_subtle` appears to be unused"
+        errorLine1="    &lt;style name=&quot;gonline_number_medium_subtle&quot;>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="624"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.gonline_number_xlarge_bold` appears to be unused"
+        errorLine1="    &lt;style name=&quot;gonline_number_xlarge_bold&quot;>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="629"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.gonline_number_xlarge_neutral` appears to be unused"
+        errorLine1="    &lt;style name=&quot;gonline_number_xlarge_neutral&quot;>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="634"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.gonline_number_xlarge_subtle` appears to be unused"
+        errorLine1="    &lt;style name=&quot;gonline_number_xlarge_subtle&quot;>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="639"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.gone_label_small_wide_condensed` appears to be unused"
+        errorLine1="    &lt;style name=&quot;gone_label_small_wide_condensed&quot;>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/font_styles.xml"
+            line="646"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.v2_brand_broadband_dark` appears to be unused"
+        errorLine1="    &lt;color name=&quot;v2_brand_broadband_dark&quot;>#ff321966&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="4"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.v2_brand_broadband_dim` appears to be unused"
+        errorLine1="    &lt;color name=&quot;v2_brand_broadband_dim&quot;>#ff472098&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="5"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.v2_brand_broadband_highlight` appears to be unused"
+        errorLine1="    &lt;color name=&quot;v2_brand_broadband_highlight&quot;>#ffeae1fe&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="6"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.v2_brand_broadband_light` appears to be unused"
+        errorLine1="    &lt;color name=&quot;v2_brand_broadband_light&quot;>#ffd9c7ff&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="7"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.v2_brand_broadband_violet` appears to be unused"
+        errorLine1="    &lt;color name=&quot;v2_brand_broadband_violet&quot;>#ff581cd9&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="8"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.v2_brand_globe_blue` appears to be unused"
+        errorLine1="    &lt;color name=&quot;v2_brand_globe_blue&quot;>#ff10069f&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="9"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.v2_brand_globeone_blue` appears to be unused"
+        errorLine1="    &lt;color name=&quot;v2_brand_globeone_blue&quot;>#ff4d97ff&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="10"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.v2_brand_globeone_dark` appears to be unused"
+        errorLine1="    &lt;color name=&quot;v2_brand_globeone_dark&quot;>#ff104389&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="11"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.v2_brand_globeone_dim` appears to be unused"
+        errorLine1="    &lt;color name=&quot;v2_brand_globeone_dim&quot;>#ff1559b7&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="12"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.v2_brand_globeone_highlight` appears to be unused"
+        errorLine1="    &lt;color name=&quot;v2_brand_globeone_highlight&quot;>#ffcee1fd&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="13"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.v2_brand_globeone_light` appears to be unused"
+        errorLine1="    &lt;color name=&quot;v2_brand_globeone_light&quot;>#ff8ebafa&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="14"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.v2_brand_platinum_blue` appears to be unused"
+        errorLine1="    &lt;color name=&quot;v2_brand_platinum_blue&quot;>#ff7a9bbf&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="15"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.v2_brand_platinum_dark` appears to be unused"
+        errorLine1="    &lt;color name=&quot;v2_brand_platinum_dark&quot;>#ff3b5a87&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="16"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.v2_brand_platinum_dim` appears to be unused"
+        errorLine1="    &lt;color name=&quot;v2_brand_platinum_dim&quot;>#ff4b72aa&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="17"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.v2_brand_platinum_highlight` appears to be unused"
+        errorLine1="    &lt;color name=&quot;v2_brand_platinum_highlight&quot;>#ffdde5ee&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="18"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.v2_brand_platinum_light` appears to be unused"
+        errorLine1="    &lt;color name=&quot;v2_brand_platinum_light&quot;>#ffbdcddf&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="19"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.v2_brand_postpaid_blue` appears to be unused"
+        errorLine1="    &lt;color name=&quot;v2_brand_postpaid_blue&quot;>#ff1c45d9&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="20"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.v2_brand_postpaid_dark` appears to be unused"
+        errorLine1="    &lt;color name=&quot;v2_brand_postpaid_dark&quot;>#ff0c1d5a&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="21"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.v2_brand_postpaid_dim` appears to be unused"
+        errorLine1="    &lt;color name=&quot;v2_brand_postpaid_dim&quot;>#ff132f95&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="22"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.v2_brand_postpaid_highlight` appears to be unused"
+        errorLine1="    &lt;color name=&quot;v2_brand_postpaid_highlight&quot;>#ffe6ebfe&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="23"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.v2_brand_postpaid_light` appears to be unused"
+        errorLine1="    &lt;color name=&quot;v2_brand_postpaid_light&quot;>#ffb1c1fc&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="24"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.v2_brand_prepaid_blue` appears to be unused"
+        errorLine1="    &lt;color name=&quot;v2_brand_prepaid_blue&quot;>#ff4dbfff&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="25"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.v2_brand_prepaid_dark` appears to be unused"
+        errorLine1="    &lt;color name=&quot;v2_brand_prepaid_dark&quot;>#ff006299&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="26"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.v2_brand_prepaid_dim` appears to be unused"
+        errorLine1="    &lt;color name=&quot;v2_brand_prepaid_dim&quot;>#ff0093e5&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="27"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.v2_brand_prepaid_highlight` appears to be unused"
+        errorLine1="    &lt;color name=&quot;v2_brand_prepaid_highlight&quot;>#ffdbf2ff&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="28"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.v2_brand_prepaid_light` appears to be unused"
+        errorLine1="    &lt;color name=&quot;v2_brand_prepaid_light&quot;>#ffa9e0ff&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="29"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.v2_brand_tm_dark` appears to be unused"
+        errorLine1="    &lt;color name=&quot;v2_brand_tm_dark&quot;>#ff660e41&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="30"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.v2_brand_tm_dim` appears to be unused"
+        errorLine1="    &lt;color name=&quot;v2_brand_tm_dim&quot;>#ffb91e28&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="31"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.v2_brand_tm_highlight` appears to be unused"
+        errorLine1="    &lt;color name=&quot;v2_brand_tm_highlight&quot;>#ffffc3a7&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="32"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.v2_brand_tm_light` appears to be unused"
+        errorLine1="    &lt;color name=&quot;v2_brand_tm_light&quot;>#ffff837f&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="33"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.v2_brand_tm_red` appears to be unused"
+        errorLine1="    &lt;color name=&quot;v2_brand_tm_red&quot;>#ffe1251b&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="34"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.v2_functional_absolute_black` appears to be unused"
+        errorLine1="    &lt;color name=&quot;v2_functional_absolute_black&quot;>#ff111111&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="35"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.v2_functional_caution_caution` appears to be unused"
+        errorLine1="    &lt;color name=&quot;v2_functional_caution_caution&quot;>#fff8a629&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="39"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.v2_functional_caution_dark` appears to be unused"
+        errorLine1="    &lt;color name=&quot;v2_functional_caution_dark&quot;>#ff705308&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="40"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.v2_functional_caution_dim` appears to be unused"
+        errorLine1="    &lt;color name=&quot;v2_functional_caution_dim&quot;>#ffa66b11&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="41"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.v2_functional_caution_highlight` appears to be unused"
+        errorLine1="    &lt;color name=&quot;v2_functional_caution_highlight&quot;>#fffffaf1&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="42"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.v2_functional_caution_light` appears to be unused"
+        errorLine1="    &lt;color name=&quot;v2_functional_caution_light&quot;>#fffce8b2&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="43"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.v2_functional_deep_dark` appears to be unused"
+        errorLine1="    &lt;color name=&quot;v2_functional_deep_dark&quot;>#ff051c42&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="44"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.v2_functional_deep_dim_hover` appears to be unused"
+        errorLine1="    &lt;color name=&quot;v2_functional_deep_dim_hover&quot;>#112D5A&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="46"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.v2_functional_error_dark` appears to be unused"
+        errorLine1="    &lt;color name=&quot;v2_functional_error_dark&quot;>#ff53090e&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="47"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.v2_functional_error_dim` appears to be unused"
+        errorLine1="    &lt;color name=&quot;v2_functional_error_dim&quot;>#ff9f040e&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="48"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.v2_functional_error_error` appears to be unused"
+        errorLine1="    &lt;color name=&quot;v2_functional_error_error&quot;>#ffb91e28&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="49"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.v2_functional_error_highlight` appears to be unused"
+        errorLine1="    &lt;color name=&quot;v2_functional_error_highlight&quot;>#fffdf6f7&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="50"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.v2_functional_error_light` appears to be unused"
+        errorLine1="    &lt;color name=&quot;v2_functional_error_light&quot;>#fff8d3d5&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="51"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.v2_functional_highlight` appears to be unused"
+        errorLine1="    &lt;color name=&quot;v2_functional_highlight&quot;>#ffcfddf4&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="52"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.v2_functional_neutrala_0` appears to be unused"
+        errorLine1="    &lt;color name=&quot;v2_functional_neutrala_0&quot;>#ff1f3b59&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="53"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.v2_functional_neutrala_1` appears to be unused"
+        errorLine1="    &lt;color name=&quot;v2_functional_neutrala_1&quot;>#ff354f6a&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="54"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.v2_functional_neutrala_2` appears to be unused"
+        errorLine1="    &lt;color name=&quot;v2_functional_neutrala_2&quot;>#ff4c627a&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="55"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.v2_functional_neutralb_0` appears to be unused"
+        errorLine1="    &lt;color name=&quot;v2_functional_neutralb_0&quot;>#ff637282&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="59"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.v2_functional_neutralb_1` appears to be unused"
+        errorLine1="    &lt;color name=&quot;v2_functional_neutralb_1&quot;>#ffd7dce1&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="60"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.v2_functional_success_dark` appears to be unused"
+        errorLine1="    &lt;color name=&quot;v2_functional_success_dark&quot;>#ff064720&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="63"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.v2_functional_success_dim` appears to be unused"
+        errorLine1="    &lt;color name=&quot;v2_functional_success_dim&quot;>#ff047130&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="64"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.v2_functional_success_highlight` appears to be unused"
+        errorLine1="    &lt;color name=&quot;v2_functional_success_highlight&quot;>#fff6fdf8&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="65"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.v2_functional_success_light` appears to be unused"
+        errorLine1="    &lt;color name=&quot;v2_functional_success_light&quot;>#ffd2f9d8&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="66"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.v2_functional_success_success` appears to be unused"
+        errorLine1="    &lt;color name=&quot;v2_functional_success_success&quot;>#ff00a441&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="67"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.material3_dark_background_background` appears to be unused"
+        errorLine1="    &lt;color name=&quot;material3_dark_background_background&quot;>#ff0d1b2a&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="69"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.material3_dark_background_on_background` appears to be unused"
+        errorLine1="    &lt;color name=&quot;material3_dark_background_on_background&quot;>#fff4f7fb&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="70"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.material3_dark_caution_caution` appears to be unused"
+        errorLine1="    &lt;color name=&quot;material3_dark_caution_caution&quot;>#ffa66b11&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="71"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.material3_dark_caution_caution_container` appears to be unused"
+        errorLine1="    &lt;color name=&quot;material3_dark_caution_caution_container&quot;>#ff3d2c01&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="72"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.material3_dark_caution_hover_caution` appears to be unused"
+        errorLine1="    &lt;color name=&quot;material3_dark_caution_hover_caution&quot;>#ff705308&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="73"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.material3_dark_caution_on_caution` appears to be unused"
+        errorLine1="    &lt;color name=&quot;material3_dark_caution_on_caution&quot;>#fffce8b2&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="74"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.material3_dark_caution_on_caution_container` appears to be unused"
+        errorLine1="    &lt;color name=&quot;material3_dark_caution_on_caution_container&quot;>#ffb8812e&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="75"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.material3_dark_error_error` appears to be unused"
+        errorLine1="    &lt;color name=&quot;material3_dark_error_error&quot;>#ff9f040e&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="76"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.material3_dark_error_error_container` appears to be unused"
+        errorLine1="    &lt;color name=&quot;material3_dark_error_error_container&quot;>#ff330509&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="77"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.material3_dark_error_hover_error` appears to be unused"
+        errorLine1="    &lt;color name=&quot;material3_dark_error_hover_error&quot;>#ff53090e&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="78"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.material3_dark_error_on_error` appears to be unused"
+        errorLine1="    &lt;color name=&quot;material3_dark_error_on_error&quot;>#fffdf6f7&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="79"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.material3_dark_error_on_error_container` appears to be unused"
+        errorLine1="    &lt;color name=&quot;material3_dark_error_on_error_container&quot;>#fff8d3d5&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="80"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.material3_dark_primary_hover_primary` appears to be unused"
+        errorLine1="    &lt;color name=&quot;material3_dark_primary_hover_primary&quot;>#ff11336a&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="81"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.material3_dark_primary_on_primary` appears to be unused"
+        errorLine1="    &lt;color name=&quot;material3_dark_primary_on_primary&quot;>#ffffffff&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="82"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.material3_dark_primary_on_primary_container` appears to be unused"
+        errorLine1="    &lt;color name=&quot;material3_dark_primary_on_primary_container&quot;>#ffa4c6f4&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="83"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.material3_dark_primary_primary` appears to be unused"
+        errorLine1="    &lt;color name=&quot;material3_dark_primary_primary&quot;>#ff005bbf&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="84"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.material3_dark_primary_primary_container` appears to be unused"
+        errorLine1="    &lt;color name=&quot;material3_dark_primary_primary_container&quot;>#ff0d1b2a&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="85"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.material3_dark_secondary_hover_secondary` appears to be unused"
+        errorLine1="    &lt;color name=&quot;material3_dark_secondary_hover_secondary&quot;>#ffcfddf4&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="86"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.material3_dark_secondary_on_secondary` appears to be unused"
+        errorLine1="    &lt;color name=&quot;material3_dark_secondary_on_secondary&quot;>#ff286dbd&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="87"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.material3_dark_secondary_on_secondary_container` appears to be unused"
+        errorLine1="    &lt;color name=&quot;material3_dark_secondary_on_secondary_container&quot;>#ff669cdb&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="88"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.material3_dark_secondary_secondary` appears to be unused"
+        errorLine1="    &lt;color name=&quot;material3_dark_secondary_secondary&quot;>#ffa6c5ea&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="89"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.material3_dark_secondary_secondary_container` appears to be unused"
+        errorLine1="    &lt;color name=&quot;material3_dark_secondary_secondary_container&quot;>#ff19314a&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="90"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.material3_dark_shadow_shadow` appears to be unused"
+        errorLine1="    &lt;color name=&quot;material3_dark_shadow_shadow&quot;>#ff000000&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="91"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.material3_dark_success_hover_success` appears to be unused"
+        errorLine1="    &lt;color name=&quot;material3_dark_success_hover_success&quot;>#ff064720&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="92"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.material3_dark_success_on_success` appears to be unused"
+        errorLine1="    &lt;color name=&quot;material3_dark_success_on_success&quot;>#fff6fdf8&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="93"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.material3_dark_success_on_success_container` appears to be unused"
+        errorLine1="    &lt;color name=&quot;material3_dark_success_on_success_container&quot;>#ffadebb7&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="94"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.material3_dark_success_success` appears to be unused"
+        errorLine1="    &lt;color name=&quot;material3_dark_success_success&quot;>#ff047130&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="95"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.material3_dark_success_success_container` appears to be unused"
+        errorLine1="    &lt;color name=&quot;material3_dark_success_success_container&quot;>#ff062d15&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="96"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.material3_dark_surface_inverse_on_surface_inverse` appears to be unused"
+        errorLine1="    &lt;color name=&quot;material3_dark_surface_inverse_on_surface_inverse&quot;>#fff5f9fc&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="97"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.material3_dark_surface_inverse_surface_inverse` appears to be unused"
+        errorLine1="    &lt;color name=&quot;material3_dark_surface_inverse_surface_inverse&quot;>#ff354f6a&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="98"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.material3_dark_surface_on_surface` appears to be unused"
+        errorLine1="    &lt;color name=&quot;material3_dark_surface_on_surface&quot;>#fff9fafb&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="99"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.material3_dark_surface_on_tint` appears to be unused"
+        errorLine1="    &lt;color name=&quot;material3_dark_surface_on_tint&quot;>#ffacc7ff&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="100"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.material3_dark_surface_outline` appears to be unused"
+        errorLine1="    &lt;color name=&quot;material3_dark_surface_outline&quot;>#ff112d5a&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="101"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.material3_dark_surface_surface` appears to be unused"
+        errorLine1="    &lt;color name=&quot;material3_dark_surface_surface&quot;>#ff102133&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="102"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.material3_dark_surface_surface1` appears to be unused"
+        errorLine1="    &lt;color name=&quot;material3_dark_surface_surface1&quot;>#ff102133&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="103"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.material3_dark_surface_surface2` appears to be unused"
+        errorLine1="    &lt;color name=&quot;material3_dark_surface_surface2&quot;>#ff102133&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="104"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.material3_dark_surface_surface3` appears to be unused"
+        errorLine1="    &lt;color name=&quot;material3_dark_surface_surface3&quot;>#ff102133&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="105"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.material3_dark_surface_surface4` appears to be unused"
+        errorLine1="    &lt;color name=&quot;material3_dark_surface_surface4&quot;>#ff102133&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="106"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.material3_dark_surface_surface5` appears to be unused"
+        errorLine1="    &lt;color name=&quot;material3_dark_surface_surface5&quot;>#ff102133&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="107"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.material3_dark_surface_tint` appears to be unused"
+        errorLine1="    &lt;color name=&quot;material3_dark_surface_tint&quot;>#ff005bbf&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="108"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.material3_dark_surface_variant_on_surface_variant` appears to be unused"
+        errorLine1="    &lt;color name=&quot;material3_dark_surface_variant_on_surface_variant&quot;>#ffd7dce1&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="109"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.material3_dark_surface_variant_surface_variant` appears to be unused"
+        errorLine1="    &lt;color name=&quot;material3_dark_surface_variant_surface_variant&quot;>#ff102133&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="110"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.material3_dark_tertiary_hover_tertiary` appears to be unused"
+        errorLine1="    &lt;color name=&quot;material3_dark_tertiary_hover_tertiary&quot;>#ff0c0476&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="111"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.material3_dark_tertiary_on_tertiary` appears to be unused"
+        errorLine1="    &lt;color name=&quot;material3_dark_tertiary_on_tertiary&quot;>#ffcedafd&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="112"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.material3_dark_tertiary_on_tertiary_container` appears to be unused"
+        errorLine1="    &lt;color name=&quot;material3_dark_tertiary_on_tertiary_container&quot;>#ffcedafd&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="113"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.material3_dark_tertiary_tertiary` appears to be unused"
+        errorLine1="    &lt;color name=&quot;material3_dark_tertiary_tertiary&quot;>#ff554af8&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="114"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.material3_dark_tertiary_tertiary_container` appears to be unused"
+        errorLine1="    &lt;color name=&quot;material3_dark_tertiary_tertiary_container&quot;>#ff060236&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="115"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.material3_light_background_background` appears to be unused"
+        errorLine1="    &lt;color name=&quot;material3_light_background_background&quot;>#fff9fafb&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="116"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.material3_light_background_on_background` appears to be unused"
+        errorLine1="    &lt;color name=&quot;material3_light_background_on_background&quot;>#ff0d1b2a&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="117"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.material3_light_caution_caution` appears to be unused"
+        errorLine1="    &lt;color name=&quot;material3_light_caution_caution&quot;>#fff8a629&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="118"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.material3_light_caution_caution_container` appears to be unused"
+        errorLine1="    &lt;color name=&quot;material3_light_caution_caution_container&quot;>#fffce8b2&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="119"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.material3_light_caution_hover_caution` appears to be unused"
+        errorLine1="    &lt;color name=&quot;material3_light_caution_hover_caution&quot;>#ffa66b11&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="120"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.material3_light_caution_on_caution` appears to be unused"
+        errorLine1="    &lt;color name=&quot;material3_light_caution_on_caution&quot;>#fffffaf1&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="121"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.material3_light_caution_on_caution_container` appears to be unused"
+        errorLine1="    &lt;color name=&quot;material3_light_caution_on_caution_container&quot;>#ff705308&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="122"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.material3_light_error_error` appears to be unused"
+        errorLine1="    &lt;color name=&quot;material3_light_error_error&quot;>#ffb91e28&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="123"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.material3_light_error_error_container` appears to be unused"
+        errorLine1="    &lt;color name=&quot;material3_light_error_error_container&quot;>#fff8d3d5&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="124"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.material3_light_error_hover_error` appears to be unused"
+        errorLine1="    &lt;color name=&quot;material3_light_error_hover_error&quot;>#ff9f040e&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="125"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.material3_light_error_on_error` appears to be unused"
+        errorLine1="    &lt;color name=&quot;material3_light_error_on_error&quot;>#fffdf6f7&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="126"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.material3_light_error_on_error_container` appears to be unused"
+        errorLine1="    &lt;color name=&quot;material3_light_error_on_error_container&quot;>#ff53090e&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="127"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.material3_light_primary_hover_primary` appears to be unused"
+        errorLine1="    &lt;color name=&quot;material3_light_primary_hover_primary&quot;>#ff1a458b&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="128"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.material3_light_primary_on_primary` appears to be unused"
+        errorLine1="    &lt;color name=&quot;material3_light_primary_on_primary&quot;>#ffffffff&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="129"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.material3_light_primary_on_primary_container` appears to be unused"
+        errorLine1="    &lt;color name=&quot;material3_light_primary_on_primary_container&quot;>#ff051c42&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="130"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.material3_light_primary_primary` appears to be unused"
+        errorLine1="    &lt;color name=&quot;material3_light_primary_primary&quot;>#ff2274e5&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="131"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.material3_light_primary_primary_container` appears to be unused"
+        errorLine1="    &lt;color name=&quot;material3_light_primary_primary_container&quot;>#ffd1e2f9&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="132"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.material3_light_secondary_hover_secondary` appears to be unused"
+        errorLine1="    &lt;color name=&quot;material3_light_secondary_hover_secondary&quot;>#ffa6c5ea&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="133"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.material3_light_secondary_on_secondary` appears to be unused"
+        errorLine1="    &lt;color name=&quot;material3_light_secondary_on_secondary&quot;>#ff112d5a&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="134"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.material3_light_secondary_on_secondary_container` appears to be unused"
+        errorLine1="    &lt;color name=&quot;material3_light_secondary_on_secondary_container&quot;>#ff1b5498&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="135"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.material3_light_secondary_secondary` appears to be unused"
+        errorLine1="    &lt;color name=&quot;material3_light_secondary_secondary&quot;>#ffcfddf4&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="136"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.material3_light_secondary_secondary_container` appears to be unused"
+        errorLine1="    &lt;color name=&quot;material3_light_secondary_secondary_container&quot;>#ffeef4fb&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="137"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.material3_light_shadow_shadow` appears to be unused"
+        errorLine1="    &lt;color name=&quot;material3_light_shadow_shadow&quot;>#ff000000&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="138"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.material3_light_shadow_shadow_variant` appears to be unused"
+        errorLine1="    &lt;color name=&quot;material3_light_shadow_shadow_variant&quot;>#ff11336a&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="139"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.material3_light_success_hover_success` appears to be unused"
+        errorLine1="    &lt;color name=&quot;material3_light_success_hover_success&quot;>#ff047130&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="140"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.material3_light_success_on_success` appears to be unused"
+        errorLine1="    &lt;color name=&quot;material3_light_success_on_success&quot;>#fff6fdf8&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="141"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.material3_light_success_on_success_container` appears to be unused"
+        errorLine1="    &lt;color name=&quot;material3_light_success_on_success_container&quot;>#ff064720&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="142"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.material3_light_success_success` appears to be unused"
+        errorLine1="    &lt;color name=&quot;material3_light_success_success&quot;>#ff00a441&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="143"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.material3_light_success_success_container` appears to be unused"
+        errorLine1="    &lt;color name=&quot;material3_light_success_success_container&quot;>#ffd2f9d8&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="144"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.material3_light_surface_inverse_on_surface_inverse` appears to be unused"
+        errorLine1="    &lt;color name=&quot;material3_light_surface_inverse_on_surface_inverse&quot;>#ffe2eaf8&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="145"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.material3_light_surface_inverse_surface_inverse` appears to be unused"
+        errorLine1="    &lt;color name=&quot;material3_light_surface_inverse_surface_inverse&quot;>#ff14283e&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="146"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.material3_light_surface_on_surface` appears to be unused"
+        errorLine1="    &lt;color name=&quot;material3_light_surface_on_surface&quot;>#ff0d1b2a&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="147"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.material3_light_surface_on_tint` appears to be unused"
+        errorLine1="    &lt;color name=&quot;material3_light_surface_on_tint&quot;>#ff4587d3&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="148"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.material3_light_surface_outline` appears to be unused"
+        errorLine1="    &lt;color name=&quot;material3_light_surface_outline&quot;>#ffd7dce1&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="149"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.material3_light_surface_surface` appears to be unused"
+        errorLine1="    &lt;color name=&quot;material3_light_surface_surface&quot;>#ffffffff&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="150"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.material3_light_surface_surface1` appears to be unused"
+        errorLine1="    &lt;color name=&quot;material3_light_surface_surface1&quot;>#ffffffff&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="151"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.material3_light_surface_surface2` appears to be unused"
+        errorLine1="    &lt;color name=&quot;material3_light_surface_surface2&quot;>#ffffffff&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="152"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.material3_light_surface_surface3` appears to be unused"
+        errorLine1="    &lt;color name=&quot;material3_light_surface_surface3&quot;>#ffffffff&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="153"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.material3_light_surface_surface4` appears to be unused"
+        errorLine1="    &lt;color name=&quot;material3_light_surface_surface4&quot;>#ffffffff&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="154"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.material3_light_surface_surface5` appears to be unused"
+        errorLine1="    &lt;color name=&quot;material3_light_surface_surface5&quot;>#ffffffff&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="155"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.material3_light_surface_tint` appears to be unused"
+        errorLine1="    &lt;color name=&quot;material3_light_surface_tint&quot;>#ffcfddf4&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="156"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.material3_light_surface_variant_on_surface_variant` appears to be unused"
+        errorLine1="    &lt;color name=&quot;material3_light_surface_variant_on_surface_variant&quot;>#ff3e4751&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="157"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.material3_light_surface_variant_surface_variant` appears to be unused"
+        errorLine1="    &lt;color name=&quot;material3_light_surface_variant_surface_variant&quot;>#ffe8ebee&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="158"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.material3_light_tertiary_hover_tertiary` appears to be unused"
+        errorLine1="    &lt;color name=&quot;material3_light_tertiary_hover_tertiary&quot;>#ff7a87fa&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="159"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.material3_light_tertiary_on_tertiary` appears to be unused"
+        errorLine1="    &lt;color name=&quot;material3_light_tertiary_on_tertiary&quot;>#ffffffff&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="160"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.material3_light_tertiary_on_tertiary_container` appears to be unused"
+        errorLine1="    &lt;color name=&quot;material3_light_tertiary_on_tertiary_container&quot;>#ff090358&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="161"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.material3_light_tertiary_tertiary` appears to be unused"
+        errorLine1="    &lt;color name=&quot;material3_light_tertiary_tertiary&quot;>#ff10069f&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="162"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.material3_light_tertiary_tertiary_container` appears to be unused"
+        errorLine1="    &lt;color name=&quot;material3_light_tertiary_tertiary_container&quot;>#ff9db5fb&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/reimagined_colors.xml"
+            line="163"
+            column="12"/>
+    </issue>
+
+</issues>

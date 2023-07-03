@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<!--        <color name="md3_on_surface">@color/md_theme_dark_surface</color>-->
+<!--        <color name="md3_primary_container">@color/md_theme_dark_primaryContainer</color>-->
+<!--        <color name="md3_neutral_text">@color/v2_functional_neutrala_4</color>-->
+<!--        <color name="md3_default_text_color">@color/v2_functional_absolute_white</color>-->
+<!--        <color name="md3_on_primary_container">@color/v2_functional_primary</color>-->
+
+<!--        <color name="md3_on_surface_neutral">@color/v2_functional_absolute_white</color>-->
+<!--        <color name="md3_on_surface_selected">@color/v2_brand_globeone_light</color>-->
+<!--        <color name="md3_on_surface_disabled">@color/v2_functional_neutrala_3</color>-->
+
+<!--        &lt;!&ndash; Dialogue &ndash;&gt;-->
+<!--        <color name="md3_dialogue_background">@color/v2_functional_accent_dark</color>-->
+<!--        <color name="md3_dialogue_title_text_color">@color/v2_functional_absolute_white</color>-->
+<!--        <color name="md3_dialogue_message_text_color">@color/v2_functional_absolute_white</color>-->
+
+        <!-- Button -->
+
+        <color name="md_button_whisper_text_enabled">@color/v2_functional_absolute_white</color>
+        <color name="md_button_whisper_text_pressed">@color/v2_functional_primary</color>
+        <color name="md_button_whisper_text_disabled">@color/v2_functional_neutrala_3</color>
+
+        <color name="md_button_murmur_text_enabled">@color/v2_functional_absolute_white</color>
+        <color name="md_button_murmur_text_pressed">@color/v2_functional_primary</color>
+        <color name="md_button_murmur_text_disabled">@color/v2_functional_neutrala_3</color>
+
+        <color name="md_button_yell_text_enabled">@color/v2_functional_primary</color>
+        <color name="md_button_yell_text_pressed">@color/v2_functional_absolute_white</color>
+        <color name="md_button_yell_text_disabled">@color/v2_functional_neutrala_3</color>
+
+        <color name="md_button_yell_background_enabled">@color/v2_functional_absolute_white</color>
+        <color name="md_button_yell_background_disabled">@color/v2_functional_neutrala_4</color>
+        <color name="md_button_yell_background_pressed">@color/v2_functional_accent_dark</color>
+
+        <color name="md_button_murmur_background_enabled">@android:color/transparent</color>
+        <color name="md_button_murmur_background_disabled">@android:color/transparent</color>
+        <color name="md_button_murmur_background_pressed">@android:color/transparent</color>
+
+        <color name="md_button_whisper_background_enabled">@android:color/transparent</color>
+        <color name="md_button_whisper_background_disabled">@android:color/transparent</color>
+        <color name="md_button_whisper_background_pressed">@color/v2_functional_deep_dim</color>
+
+</resources>
