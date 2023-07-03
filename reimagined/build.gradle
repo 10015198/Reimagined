@@ -55,6 +55,9 @@ android {
         jvmTarget = '1.8'
     }
 
+
+    aaptOptions.cruncherEnabled = false
+    aaptOptions.useNewCruncher = false
 //    lint {
 //        baseline = file("lint-baseline.xml")
 //    }
