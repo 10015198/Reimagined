@@ -99,7 +99,13 @@ afterEvaluate {
                 groupId = 'com.github.10015198'
                 artifactId = 'Reimagined'
                 version = '1.0'
+
+                pom {
+                    description = 'Reimagined Design System (Button Component)'
+                }
             }
+
         }
+
     }
 }
