@@ -100,9 +100,9 @@ afterEvaluate {
                 artifactId = 'Reimagined'
                 version = '1.0'
 
-                pom {
-                    description = 'Reimagined Design System (Button Component)'
-                }
+//                pom {
+//                    description = 'Reimagined Design System (Button Component)'
+//                }
             }
 
         }
