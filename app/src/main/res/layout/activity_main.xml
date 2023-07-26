@@ -11,6 +11,7 @@
     <com.globe.designsystem.reimagined.button.Button
         android:layout_width="match_parent"
         android:layout_height="53dp"
+        android:layout_margin="24dp"
         android:text="Hello World"
         app:ButtonStyle="buttonYell"
         />
@@ -18,6 +19,7 @@
     <com.globe.designsystem.reimagined.button.ButtonPill
         android:layout_width="match_parent"
         android:layout_height="53dp"
+        android:layout_margin="24dp"
         android:text="Hello World"
         app:ButtonStyle="buttonYell"
         />
@@ -25,6 +27,7 @@
     <com.globe.designsystem.reimagined.button.Button
         android:layout_width="match_parent"
         android:layout_height="53dp"
+        android:layout_margin="24dp"
         android:text="Hello World"
         app:ButtonStyle="buttonYell"
         android:enabled="false"
@@ -33,10 +36,28 @@
     <com.globe.designsystem.reimagined.button.ButtonPill
         android:layout_width="match_parent"
         android:layout_height="53dp"
+        android:layout_margin="24dp"
         android:text="Hello World"
         app:ButtonStyle="buttonYell"
         android:enabled="false"
         />
 
+
+    <com.globe.designsystem.reimagined.button.Button
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:layout_margin="24dp"
+        android:text="Hello World"
+        app:ButtonStyle="buttonWhisper"
+        />
+
+    <com.globe.designsystem.reimagined.button.ButtonPill
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:layout_margin="24dp"
+        android:text="Hello World"
+        app:ButtonStyle="buttonWhisper"
+        android:enabled="false"
+        />
 
 </LinearLayout>
