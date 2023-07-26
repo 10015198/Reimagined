@@ -56,8 +56,8 @@ android {
     }
 
 
-    aaptOptions.cruncherEnabled = false
-    aaptOptions.useNewCruncher = false
+//    aaptOptions.cruncherEnabled = false
+//    aaptOptions.useNewCruncher = false
 //    lint {
 //        baseline = file("lint-baseline.xml")
 //    }
